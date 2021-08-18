@@ -6,9 +6,9 @@ import { faWallet, faBars } from '@fortawesome/free-solid-svg-icons';
 const Header = () => {
   return (
     <>
+      {/* Header */}
       <header>
         <nav class="container flex items-center py-4 mt-4 sm:mt-12 text-indigo-500 uppercase text-xs">
-          {/* <FontAwesomeIcon icon={ faWallet} /> */ }
               <FontAwesomeIcon icon={faWallet} class="w-6" />
               <h3 class="mx-2 text-base">wallet</h3>
             <ul class="hidden sm:flex flex-1 justify-end items-center gap-12">
