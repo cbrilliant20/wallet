@@ -12,15 +12,19 @@ const Header = () => {
           <FontAwesomeIcon icon={faWallet} class="w-6" />
           <h3 class="mx-2 text-base">wallet</h3>
           <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 ">
-            <li class="cursor-pointer">Features</li>
+            <li class="cursor-pointer">
+              <a href="#features">Features</a>
+            </li>
+            <li class="cursor-pointer">Reviews</li>
+
             <li class="cursor-pointer">Pricing</li>
             <li class="cursor-pointer">Contact</li>
-            <button
+            {/* <button
               type="button"
-              class="bg-red-500 text-white rounded-md px-7 py-3"
+              class="bg-red-500 text-white rounded-md px-7 py-3 btn hover:bg-white hover:text-indigo-500"
             >
               Login
-            </button>
+            </button> */}
           </ul>
           <div class="flex sm:hidden flex-1 justify-end">
             <FontAwesomeIcon icon={faBars} class="w-6" />
