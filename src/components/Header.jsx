@@ -19,7 +19,12 @@ const Header = () => {
               <a href="#testimonials">Testimonials</a>
             </li>
 
-            <li class="cursor-pointer">Pricing</li>
+            <li class="cursor-pointer">
+              <a href="#pricing">Pricing</a>
+            </li>
+            <li class="cursor-pointer">
+              <a href="#FAQ">FAQ</a>
+            </li>
             <li class="cursor-pointer">Contact</li>
             {/* <button
               type="button"
