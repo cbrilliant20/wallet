@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <>
       {/* Header */}
-      <header>
+      <header id="home">
         <nav class="container flex items-center py-4 mt-4 sm:mt-12 text-indigo-500 uppercase text-base">
-          <FontAwesomeIcon icon={faWallet} class="w-6" />
+          <FontAwesomeIcon icon={faWallet} class="w-6 " />
           <h3 class="mx-2 text-base">wallet</h3>
           <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 ">
             <li class="cursor-pointer">
@@ -25,7 +25,9 @@ const Header = () => {
             <li class="cursor-pointer">
               <a href="#FAQ">FAQ</a>
             </li>
-            <li class="cursor-pointer">Contact</li>
+            <li class="cursor-pointer">
+              <a href="#contact">Contact</a>
+            </li>
             {/* <button
               type="button"
               class="bg-red-500 text-white rounded-md px-7 py-3 btn hover:bg-white hover:text-indigo-500"

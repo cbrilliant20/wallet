@@ -23,7 +23,7 @@ function FAQ() {
               <span class="flex-1 ">Lorem ipsum dolor sit?</span>
               <FontAwesomeIcon
                 icon={faChevronDown}
-                class="w-5 text-indigo-500"
+                class="w-5 text-indigo-500 ml-2"
               />
             </div>
 
@@ -33,7 +33,7 @@ function FAQ() {
               </span>
               <FontAwesomeIcon
                 icon={faChevronDown}
-                class="w-5 text-indigo-500"
+                class="w-5 text-indigo-500 ml-2"
               />
             </div>
 
@@ -41,7 +41,7 @@ function FAQ() {
               <span class="flex-1 ">Lorem ipsum dolor sit amet?</span>
               <FontAwesomeIcon
                 icon={faChevronDown}
-                class="w-5 text-indigo-500"
+                class="w-5 text-indigo-500 ml-2"
               />
             </div>
 
@@ -51,7 +51,7 @@ function FAQ() {
               </span>
               <FontAwesomeIcon
                 icon={faChevronDown}
-                class="w-5 text-indigo-500"
+                class="w-5 text-indigo-500 ml-2"
               />
             </div>
             <button
