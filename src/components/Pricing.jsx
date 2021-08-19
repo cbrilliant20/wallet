@@ -5,7 +5,7 @@ import { faDollarSign } from "@fortawesome/free-solid-svg-icons"
 function Pricing() {
   return (
     <>
-      <section class="mt-20 py-20 lg:mt-40 bg-gray-100" id="pricing">
+      <section class="mt-20 py-20 lg:mt-20 bg-gray-100" id="pricing">
         <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 class="text-3xl text-center text-indigo-500">Pricing</h1>
           <p class="text-gray-500 mt-4 text-center">
