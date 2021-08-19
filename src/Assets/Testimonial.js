@@ -1,18 +1,29 @@
-export const FAQ = [
-  {
-    img: "Lorem ipsum dolor sit amet?",
-    name:
-      "Ut at egestas lectus, ac blandit felis. Integer et molestie augue, consequat ultricies enim.",
-    quote: ""
-  },
-  {
-    question: "Nunc at tellus eros. Quisque ac dignissim lectus?",
-    answer: "Nunc dapibus nibh quis risus cursus, nec aliquam lorem eleifend..",
-  },
-  {
-    question: "Sed a imperdiet nibh, id ultrices elit?",
-    answer:
-      "Sed ac urna pellentesque, egestas ipsum et, ullamcorper velit. Suspendisse potenti.",
-  },
+import testimonial1 from "../Assets/testimonial1.jpg"
+import testimonial2 from "../Assets/testimonial2.jpg"
+import testimonial3 from "./testimonial3.jpg"
 
+const Testimonial = [
+  {
+    img: testimonial3,
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic velit soluta, ipsam quaerat at magnam consequatur veniam consequuntur inventore repudiandae.",
+    name: "Rachel Chester",
+    occupation: "Street Sweeper",
+  },
+  {
+    img: testimonial1,
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic velit soluta, ipsam quaerat at magnam consequatur veniam  consequuntur inventore repudiandae quaerat at magnam  consequatur.",
+    name: "Tom Jones",
+    occupation: "Scuba Diver",
+  },
+  {
+    img: testimonial2,
+    quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic velit soluta, ipsam quaerat at magnam consequatur veniam consequuntur inventore repudiandae.",
+    name: "Sally Smith",
+    occupation: "Barrista",
+  },
 ]
+
+export default Testimonial
