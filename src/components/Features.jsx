@@ -24,7 +24,7 @@ function Features() {
               <img
                 src={wallet2}
                 alt=""
-                class="w-5/6 h-5/6 t  md:w-4/5 md:h-4/5 sm:w-3/5 sm:h-3/5"
+                class="w-full h-full  md:w-full md:h-full sm:w-3/5 sm:h-3/5"
               />
             </div>
             {/* Content */}
@@ -55,7 +55,7 @@ function Features() {
               <img
                 src={wallet3}
                 alt=""
-                class="w-5/6 h-5/6 t  md:w-4/5 md:h-4/5 sm:w-3/5 sm:h-3/5"
+                class="w-full h-full  md:w-full md:h-full sm:w-3/5 sm:h-3/5"
               />
             </div>
             {/* Content */}
@@ -76,7 +76,7 @@ function Features() {
             </div>
           </div>
           {/* Rounded Rectangle */}
-          <div class="hidden lg:block overflow-hidden bg-indigo-500 rounded-l-full absolute h-60 w-2/5 top-28 right-0 lg: -bottom-24 lg: right-26 "></div>
+          <div class="hidden lg:block overflow-hidden bg-indigo-500 rounded-l-full absolute h-60 w-2/5 top-30 right-0 lg: -bottom-24 lg: right-26 "></div>
         </div>
 
         {/* Feature #3 */}
@@ -87,7 +87,7 @@ function Features() {
               <img
                 src={wallet4}
                 alt=""
-                class="w-5/6 h-5/6 t  md:w-4/5 md:h-4/5 sm:w-3/5 sm:h-3/5"
+                class="w-full h-full  md:w-full md:h-full sm:w-3/5 sm:h-3/5"
               />
             </div>
             {/* Content */}
