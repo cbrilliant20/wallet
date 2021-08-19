@@ -1,14 +1,13 @@
-const colors = require('tailwindcss/colors')
-
+const colors = require("tailwindcss/colors")
 
 module.exports = {
-   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
-     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
+    colors: {
+      transparent: "transparent",
+      current: "currentColor",
       black: colors.black,
       white: colors.white,
       gray: colors.trueGray,
@@ -26,11 +25,13 @@ module.exports = {
         lg: "1124px",
         xl: "1124px",
         "2xl": "1124px",
-      }
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      rotate: ["active", "focus"],
+    },
   },
   plugins: [],
 }
