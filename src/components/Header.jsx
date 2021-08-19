@@ -15,7 +15,9 @@ const Header = () => {
             <li class="cursor-pointer">
               <a href="#features">Features</a>
             </li>
-            <li class="cursor-pointer">Reviews</li>
+            <li class="cursor-pointer">
+              <a href="#testimonials">Testimonials</a>
+            </li>
 
             <li class="cursor-pointer">Pricing</li>
             <li class="cursor-pointer">Contact</li>
