@@ -44,7 +44,7 @@ const Header = () => {
             />
           </div>
           {menuOpen && (
-            <div class="flex flex-col items-center justify-center bg-indigo-500 bg-opacity-90  absolute top-0 right-0 h-screen w-screen z-30 h-1/1 text-white">
+            <div class="flex flex-col items-center justify-center bg-indigo-500 bg-opacity-90 fixed top-0 right-0 h-full w-full z-30  text-white">
               <ul class=" flex flex-col justify-center items-center sm:hidden gap-12 text-2xl  ">
                 <li class="cursor-pointer">
                   <a href="#features" onClick={handleClick}>
