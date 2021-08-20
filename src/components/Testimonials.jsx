@@ -23,7 +23,7 @@ function Testimonials() {
             {/* Card #1 */}
             {Testimonial.map((item, index) => {
               return (
-                <div class="bg-gray-100 flex flex-col  lg:w-1/4 items-center justify-center py-4 shadow transform hover:scale-105 duration-500 w-full">
+                <div class="bg-gray-100 flex flex-col w-3/4 md:w-1/2 lg:w-1/4 items-center justify-center py-4 shadow w-4/5 transform hover:scale-105 duration-500">
                   {/* Image */}
 
                   <img src={item.img} alt="" class="w-3/5 h-3/5 rounded-full" />

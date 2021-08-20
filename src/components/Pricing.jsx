@@ -14,9 +14,9 @@ function Pricing() {
         </div>
 
         <div class="relative mt-20 lg:mt-40">
-          <div class="container flex lg:flex-row items-center flex-col  justify-center gap-4 ">
+          <div class="container flex lg:flex-row items-center flex-col justify-center gap-6 ">
             {/* Card #1 */}
-            <div class=" flex flex-col  lg:w-1/3 items-center justify-center shadow w-full ">
+            <div class=" flex flex-col w-3/4 md:w-1/2 lg:w-1/4 items-center justify-center py-4 shadow w-4/5 ">
               {/* Top Half */}
               <div class="flex flex-col items-center justify-between py-4 gap-4 h-fit">
                 <p class="text-gray-400">Free</p>
@@ -49,7 +49,7 @@ function Pricing() {
             </div>
 
             {/* Card #2 */}
-            <div class=" flex flex-col  lg:w-1/3 items-center justify-center shadow w-full ">
+            <div class=" flex flex-col w-3/4 md:w-1/2 lg:w-1/4 items-center justify-center py-4 shadow w-4/5 ">
               {/* Top Half */}
               <div class="flex flex-col items-center justify-between py-4 gap-4 h-fit">
                 <p class="text-gray-400">Basic</p>
@@ -82,7 +82,7 @@ function Pricing() {
             </div>
 
             {/* Card #3 */}
-            <div class=" flex flex-col  lg:w-1/3 items-center justify-center shadow w-full ">
+            <div class=" flex flex-col w-3/4 md:w-1/2 lg:w-1/4 items-center justify-center py-4 shadow w-4/5 ">
               {/* Top Half */}
               <div class="flex flex-col items-center justify-between py-4 gap-4 h-fit">
                 <p class="text-gray-400">Advanced</p>

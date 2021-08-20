@@ -12,7 +12,7 @@ function Footer() {
       <footer class="bg-black py-8">
         <div class="container flex flex-col md:flex-row item-center gap-6">
           <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12 text-white">
-            <ul class="flex text-white uppercase gap-6 text-xs flex-wrap items-center justify-center">
+            <ul class="flex text-white uppercase gap-6 text-xs flex-wrap items-center justify-center md:w-full w-2/3 ">
               <li class="cursor-pointer">
                 <a href="#home">Home</a>
               </li>
@@ -34,7 +34,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div class="flex flex-1 flex-wrap items-center justify-center md:justify-center gap-12 text-white ">
+          <div class="flex flex-1 flex-wrap items-center justify-center md:justify-center gap-12 text-white  ">
             <FontAwesomeIcon icon={faTwitter} class="w-8" />
             <FontAwesomeIcon icon={faFacebook} class="w-8" />
             <FontAwesomeIcon icon={faInstagram} class="w-8" />
