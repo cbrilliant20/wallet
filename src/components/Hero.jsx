@@ -1,7 +1,9 @@
 import React from "react"
 import wallet1 from "../Assets/wallet1.png"
+import Popover from "./Popover"
 
 function Hero() {
+  // const toggleClick = { Popover }
   return (
     <>
       {/* Hero */}
@@ -21,7 +23,9 @@ function Hero() {
               <button
                 type="button"
                 class="btn btn-indigo hover:bg-white hover:text-black"
+                // onClick={toggleClick}
               >
+                {/* <Popover /> */}
                 Get it on Chrome
               </button>
               <button

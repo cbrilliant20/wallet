@@ -1,7 +1,4 @@
 import React from "react"
-import testimonial1 from "../Assets/testimonial1.jpg"
-import testimonial2 from "../Assets/testimonial2.jpg"
-import testimonial3 from "../Assets/testimonial3.jpg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons"
 import Testimonial from "../Assets/Testimonial.js"
@@ -23,14 +20,16 @@ function Testimonials() {
             {/* Card #1 */}
             {Testimonial.map((item, index) => {
               return (
-                <div class="bg-gray-100 flex flex-col w-3/4 md:w-1/2 lg:w-1/4 items-center justify-center py-4 shadow w-4/5 transform hover:scale-105 duration-500">
+                <div
+                  key={index}
+                  class="bg-gray-100 flex flex-col w-3/4 md:w-1/2 lg:w-1/4 items-center justify-center py-4 shadow w-4/5 transform hover:scale-105 duration-500"
+                >
                   {/* Image */}
 
                   <img src={item.img} alt="" class="w-3/5 h-3/5 rounded-full" />
 
                   {/* Content */}
                   <div class="flex flex-col items-center justify-center gap-4 p-4 text-center">
-                    {/* <FontAwesomeIcon icon={faQuoteLeft} class="w-5 inline" /> */}
                     <p class="text-sm">
                       <FontAwesomeIcon
                         icon={faQuoteLeft}
