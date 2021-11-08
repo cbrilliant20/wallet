@@ -12,7 +12,6 @@ const Accordian = () => {
     }
     setIsActive(index)
   }
-
   return (
     <div>
       {FAQ.map((item, index) => {
@@ -26,7 +25,6 @@ const Accordian = () => {
               <span class="flex-1 active:bg-gray-500" key={index}>
                 {item.question}
               </span>
-
               <FontAwesomeIcon
                 icon={faChevronDown}
                 class={

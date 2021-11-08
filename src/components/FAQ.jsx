@@ -15,7 +15,6 @@ function FAQ() {
               any other questions feel free to email us!
             </p>
           </div>
-
           {/* FAQ Items */}
           <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
             <Accordian />

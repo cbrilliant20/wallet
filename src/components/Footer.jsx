@@ -5,6 +5,7 @@ import {
   faFacebook,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
+
 function Footer() {
   return (
     <>

@@ -46,7 +46,6 @@ function Features() {
           {/* Rounded Rectangle */}
           <div class="hidden lg:block overflow-hidden bg-indigo-500 rounded-r-full absolute h-60 w-2/5  lg: -bottom-24 lg: left-26"></div>
         </div>
-
         {/* Feature #2 */}
         <div class="relative mt-20 lg:mt-52">
           <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
@@ -78,7 +77,6 @@ function Features() {
           {/* Rounded Rectangle */}
           <div class="hidden lg:block overflow-hidden bg-indigo-500 rounded-l-full absolute h-60 w-2/5 top-30 right-0 lg: -bottom-24 lg: right-26 "></div>
         </div>
-
         {/* Feature #3 */}
         <div class="relative mt-20 lg:mt-52">
           <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
